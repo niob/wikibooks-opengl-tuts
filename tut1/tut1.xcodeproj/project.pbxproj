@@ -27,7 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C85405BE17687BD600EAEC4D /* gltest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gltest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85405BE17687BD600EAEC4D /* tut1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tut1; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85405C117687BD600EAEC4D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C85405CA17687D8100EAEC4D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		C85405CC17687D9100EAEC4D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -57,7 +57,7 @@
 				C85405D21768811A00EAEC4D /* glew.h */,
 				C85405CC17687D9100EAEC4D /* OpenGL.framework */,
 				C85405CA17687D8100EAEC4D /* GLUT.framework */,
-				C85405C017687BD600EAEC4D /* gltest */,
+				C85405C017687BD600EAEC4D /* tut1 */,
 				C85405BF17687BD600EAEC4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,25 +65,26 @@
 		C85405BF17687BD600EAEC4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C85405BE17687BD600EAEC4D /* gltest */,
+				C85405BE17687BD600EAEC4D /* tut1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C85405C017687BD600EAEC4D /* gltest */ = {
+		C85405C017687BD600EAEC4D /* tut1 */ = {
 			isa = PBXGroup;
 			children = (
 				C85405C117687BD600EAEC4D /* main.cpp */,
 			);
+			name = tut1;
 			path = gltest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C85405BD17687BD600EAEC4D /* gltest */ = {
+		C85405BD17687BD600EAEC4D /* tut1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C85405C717687BD600EAEC4D /* Build configuration list for PBXNativeTarget "gltest" */;
+			buildConfigurationList = C85405C717687BD600EAEC4D /* Build configuration list for PBXNativeTarget "tut1" */;
 			buildPhases = (
 				C85405BA17687BD600EAEC4D /* Sources */,
 				C85405BB17687BD600EAEC4D /* Frameworks */,
@@ -93,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = gltest;
+			name = tut1;
 			productName = gltest;
-			productReference = C85405BE17687BD600EAEC4D /* gltest */;
+			productReference = C85405BE17687BD600EAEC4D /* tut1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +108,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = niob;
 			};
-			buildConfigurationList = C85405B917687BD600EAEC4D /* Build configuration list for PBXProject "gltest" */;
+			buildConfigurationList = C85405B917687BD600EAEC4D /* Build configuration list for PBXProject "tut1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C85405BD17687BD600EAEC4D /* gltest */,
+				C85405BD17687BD600EAEC4D /* tut1 */,
 			);
 		};
 /* End PBXProject section */
@@ -200,7 +201,7 @@
 					"$(inherited)",
 					/usr/local/Cellar/glew/1.9.0/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tut1;
 			};
 			name = Debug;
 		};
@@ -211,14 +212,14 @@
 					"$(inherited)",
 					/usr/local/Cellar/glew/1.9.0/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tut1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C85405B917687BD600EAEC4D /* Build configuration list for PBXProject "gltest" */ = {
+		C85405B917687BD600EAEC4D /* Build configuration list for PBXProject "tut1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C85405C517687BD600EAEC4D /* Debug */,
@@ -227,7 +228,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C85405C717687BD600EAEC4D /* Build configuration list for PBXNativeTarget "gltest" */ = {
+		C85405C717687BD600EAEC4D /* Build configuration list for PBXNativeTarget "tut1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C85405C817687BD600EAEC4D /* Debug */,
